@@ -1,5 +1,5 @@
-# Face-emotion-recognition
-Deep Learning 
+# Face-emotion-recognition-Deep Learning
+ 
 
 
 # Problem Statement
@@ -53,17 +53,14 @@ Convolutional Neural Networks (CNNs) is the most popular neural network model be
 
 # Deployment of Streamlit WebApp in Heroku and Streamlit
 
+Heroku Link:-
 
-In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
+Streamlit Link:- 
 
-Heroku Link:- https://face-emotion-recognition-somya.herokuapp.com
 
-Streamlit Link:- https://share.streamlit.io/soumya1999rta/face-emotion-recognition/main/app.py
-
-[ N.B:- If the website didn’t open , then try refreshing the page 2 to 3 times.]
 
 # Conclusion
 
 Finally I build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
 
-If failed to access the website and just wanted to see how the webapp works, then visit this link:- https://github.com/soumya1999rta/Face-Emotion-Recognition/blob/main/Face_Emotion_Recognition_Local_Demo_Video.mp4
+
