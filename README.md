@@ -42,3 +42,28 @@ Convolutional Neural Networks (CNNs) is the most popular neural network model be
 
  CNNs take a different approach towards regularization: they take advantage of the hierarchical pattern in data and assemble patterns of increasing complexity using smaller and simpler patterns embossed in their filters. Therefore, on a scale of connectivity and complexity, CNNs are on the lower extreme. Convolutional networks were inspired by biological processes in that the connectivity pattern between neurons resembles the organization of the animal visual cortex. Individual cortical neurons respond to stimuli only in a restricted region of the visual field known as the receptive field. The receptive fields of different neurons partially overlap such that they cover the entire visual field.CNNs use relatively little pre-processing compared to other image classification algorithms. This means that the network learns to optimize the filters (or kernels) through automated learning, whereas in traditional algorithms these filters are hand-engineered. This independence from prior knowledge and human intervention in feature extraction is a major advantage.
 
+
+![WhatsApp Image 2021-07-30 at 1 08 50 PM](https://user-images.githubusercontent.com/84126197/127868474-9278e758-7866-4815-a6ab-5e8da43a23ea.jpeg)
+
+
+# Loss & Accuracy Plot
+
+![image](https://user-images.githubusercontent.com/84126197/127868817-8d6d02f0-d166-4eda-8123-c68d48ce159d.png)
+
+
+# Deployment of Streamlit WebApp in Heroku and Streamlit
+
+
+In this repository I have made a front end using streamlit .Streamlit doesn’t provide the live capture feature itself, instead uses a third party API. I have used streamlit-webrtc which helped to deal with real-time video streams. Image captured from the webcam is sent to VideoTransformer function to detect the emotion. Then this model was deployed on heroku and streamlit platform with the help of buildpack-apt which is necessary to deploy opencv model on heroku and streamlit.
+
+Heroku Link:- https://face-emotion-recognition-somya.herokuapp.com
+
+Streamlit Link:- https://share.streamlit.io/soumya1999rta/face-emotion-recognition/main/app.py
+
+[ N.B:- If the website didn’t open , then try refreshing the page 2 to 3 times.]
+
+# Conclusion
+
+Finally I build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
+
+If failed to access the website and just wanted to see how the webapp works, then visit this link:- https://github.com/soumya1999rta/Face-Emotion-Recognition/blob/main/Face_Emotion_Recognition_Local_Demo_Video.mp4
