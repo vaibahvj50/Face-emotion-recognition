@@ -51,16 +51,16 @@ Convolutional Neural Networks (CNNs) is the most popular neural network model be
 ![image](https://user-images.githubusercontent.com/84126197/127868817-8d6d02f0-d166-4eda-8123-c68d48ce159d.png)
 
 
-# Deployment of Streamlit WebApp in Heroku and Streamlit
+# Deployment 
 
-Heroku Link:-
+Streamlit Link:-  https://share.streamlit.io/vaibahvj50/face-emotion-recognition/main 
 
-Streamlit Link:- 
+                  https://share.streamlit.io/nicky-ghai/face-emotion-recognition-/main/streamlit_app.py.py 
 
 
 
 # Conclusion
 
-Finally I build the webapp and deployed which has training accuracy of 82% and test accuracy of 66% .
+Finally we build the webapp and deployed which has training accuracy of 88% and test accuracy of 66% .
 
 
