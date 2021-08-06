@@ -55,7 +55,7 @@ Convolutional Neural Networks (CNNs) is the most popular neural network model be
 
 Streamlit Link:-  https://share.streamlit.io/vaibahvj50/face-emotion-recognition/main 
 
-                  https://share.streamlit.io/nicky-ghai/face-emotion-recognition-/main/streamlit_app.py.py 
+                  https://share.streamlit.io/nicky-ghai/face-emotion-recognition-/main/streamlit_app.py.py
 
 
 
